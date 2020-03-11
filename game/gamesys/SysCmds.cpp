@@ -1110,11 +1110,21 @@ void Cmd_Trigger_f( const idCmdArgs &args ) {
 Cmd_Spawn_f
 ===================
 */
+
+void spawnWaves(const char *name) {
+	gameLocal.Printf("parameter passed = %s\n", name);
+}
+
 void Cmd_Spawn_f( const idCmdArgs &args ) {
 #ifndef _MPBETA
-
 	if (strcmp(args.Argv(1), "wave_1") == 0) {
+		spawnWaves(args.Argv(1));
+	} else if (strcmp(args.Argv(1), "wave") == 0) {
 		int distance = 380;
+
+		gameLocal.Printf("ABOUT TO CALL FUNC\n");
+
+		spawnWaves("Hello");
 
 		for (int j = 1; j < 10; j++) {
 			const char *key, *value;
@@ -1158,14 +1168,11 @@ void Cmd_Spawn_f( const idCmdArgs &args ) {
 
 			if (newEnt)	{
 				gameLocal.Printf("spawned entity '%s'\n", newEnt->name.c_str());
+				spawnWaves("Hello world");
 			}
 		}
 	}
 	else {
-
-		int distance = 380;
-
-		for (int j = 1; j < 10; j++) {
 			const char *key, *value;
 			int			i;
 			float		yaw;
@@ -1189,7 +1196,7 @@ void Cmd_Spawn_f( const idCmdArgs &args ) {
 			dict.Set("classname", value);
 			dict.Set("angle", va("%f", yaw + 180));
 
-			org = player->GetPhysics()->GetOrigin() + idAngles(0, yaw, 0).ToForward() * (distance + (j * 2)) + idVec3(0, 0, 1);
+			org = player->GetPhysics()->GetOrigin() + idAngles(0, yaw, 0).ToForward() * 180 + idVec3(0, 0, 1);
 			dict.Set("origin", org.ToString());
 
 			for (i = 2; i < args.Argc() - 1; i += 2) {
@@ -1210,7 +1217,6 @@ void Cmd_Spawn_f( const idCmdArgs &args ) {
 			if (newEnt)	{
 				gameLocal.Printf("spawned entity '%s'\n", newEnt->name.c_str());
 			}
-		}
 	}
 // RAVEN END
 #endif // !_MPBETA
