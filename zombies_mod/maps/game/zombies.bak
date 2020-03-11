@@ -1,0 +1,419 @@
+Version 3
+// entity 0
+{
+"classname" "worldspawn"
+// primitive 0
+{
+ brushDef3
+ {
+  ( 0 0 -1 0 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 0 1 -128 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 -1 0 384 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 1 0 0 632 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( -1 0 0 -832 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 1 0 -392 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+ }
+}
+// primitive 1
+{
+ brushDef3
+ {
+  ( 0 0 -1 0 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 0 1 -128 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 -1 0 384 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 1 0 0 320 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( -1 0 0 -520 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 1 0 -392 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+ }
+}
+// primitive 2
+{
+ brushDef3
+ {
+  ( 1 0 0 248 ) ( ( 0.0078125 0 1.875 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( -1 0 0 -256 ) ( ( 0.0078125 0 -1.875 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 1 0 -8 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 -1 0 -256 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 0 1 -128 ) ( ( 0.0078125 0 1.875 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 0 -1 0 ) ( ( 0.0078125 0 1.875 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+ }
+}
+// primitive 3
+{
+ brushDef3
+ {
+  ( 0 0 1 0 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_misc/concrete05"
+  ( -1 0 0 -512 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_misc/concrete05"
+  ( 0 1 0 -128 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_misc/concrete05"
+  ( 1 0 0 256 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_misc/concrete05"
+  ( 0 -1 0 0 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_misc/concrete05"
+  ( 0 0 -1 -8 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_misc/concrete05"
+ }
+}
+// primitive 4
+{
+ brushDef3
+ {
+  ( 0 0 -1 0 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 0 1 -128 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 1 0 0 256 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 1 0 -128 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( -1 0 0 -512 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 -1 0 120 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+ }
+}
+// primitive 5
+{
+ brushDef3
+ {
+  ( 0 0 -1 0 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 0 1 -128 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 -1 0 0 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 1 0 0 256 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( -1 0 0 -640 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 1 0 -8 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+ }
+}
+// primitive 6
+{
+ brushDef3
+ {
+  ( 0 0 1 -136 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_floors/floor5_1"
+  ( 0 -1 0 0 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_floors/floor5_1"
+  ( 1 0 0 256 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_floors/floor5_1"
+  ( 0 1 0 -128 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_floors/floor5_1"
+  ( -1 0 0 -512 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_floors/floor5_1"
+  ( 0 0 -1 128 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_floors/floor5_1"
+ }
+}
+// primitive 7
+{
+ brushDef3
+ {
+  ( 0 0 -1 0 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 0 1 -128 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 -1 0 0 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 1 0 -392 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( -1 0 0 -640 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 1 0 0 632 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+ }
+}
+// primitive 8
+{
+ brushDef3
+ {
+  ( 0 0 -1 0 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 0 1 -128 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 -1 0 120 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 1 0 0 512 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 1 0 -392 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( -1 0 0 -520 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+ }
+}
+// primitive 9
+{
+ brushDef3
+ {
+  ( 0 0 1 -136 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_floors/floor5_1"
+  ( 0 -1 0 0 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_floors/floor5_1"
+  ( 1 0 0 512 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_floors/floor5_1"
+  ( 0 1 0 -384 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_floors/floor5_1"
+  ( -1 0 0 -640 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_floors/floor5_1"
+  ( 0 0 -1 128 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_floors/floor5_1"
+ }
+}
+// primitive 10
+{
+ brushDef3
+ {
+  ( 0 0 -1 -8 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_misc/concrete05"
+  ( 0 -1 0 0 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_misc/concrete05"
+  ( 1 0 0 512 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_misc/concrete05"
+  ( 0 1 0 -384 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_misc/concrete05"
+  ( -1 0 0 -640 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_misc/concrete05"
+  ( 0 0 1 0 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_misc/concrete05"
+ }
+}
+// primitive 11
+{
+ brushDef3
+ {
+  ( 0 0 -1 0 ) ( ( 0.015625 0 173.0234375 ) ( 0 0.015625 -31 ) ) "textures/common/caulk"
+  ( 0 0 1 -128 ) ( ( 0.015625 0 173.0234375 ) ( 0 0.015625 -13 ) ) "textures/common/caulk"
+  ( 1 0 0 328 ) ( ( 0.015625 0 173.0234375 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( 0 1 0 -896 ) ( ( 0.015625 0 174.0234375 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( -1 0 0 -824 ) ( ( 0.015625 0 193.0234375 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( 0 -1 0 888 ) ( ( 0.0078125 0 4.51171875 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+ }
+}
+// primitive 12
+{
+ brushDef3
+ {
+  ( 0 0 -1 0 ) ( ( 0.0078125 0 -5 ) ( 0 0.0078125 -4.5 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 0 1 -128 ) ( ( 0.0078125 0 -5 ) ( 0 0.0078125 4.5 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 -1 0 392 ) ( ( 0.0078125 0 4.5 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 1 0 -888 ) ( ( 0.0078125 0 -4.5 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( -1 0 0 -832 ) ( ( 0.0078125 0 5 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 1 0 0 824 ) ( ( 0.0078125 0 -5 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+ }
+}
+// primitive 13
+{
+ brushDef3
+ {
+  ( 0 0 -1 0 ) ( ( 0.0078125 0 -4.98828125 ) ( 0 0.0078125 -4.5 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 0 1 -128 ) ( ( 0.0078125 0 -4.98828125 ) ( 0 0.0078125 4.5 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 -1 0 392 ) ( ( 0.0078125 0 4.51171875 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 1 0 0 320 ) ( ( 0.0078125 0 -4.98828125 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 1 0 -888 ) ( ( 0.0078125 0 -4.48828125 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( -1 0 0 -328 ) ( ( 0.0078125 0 5.01171875 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+ }
+}
+// primitive 14
+{
+ brushDef3
+ {
+  ( 0 0 -1 128 ) ( ( 0.0078125 0 -5 ) ( 0 0.0078125 -4.5 ) ) "textures/common_floors/floor5_1"
+  ( -1 0 0 -832 ) ( ( 0.015625 0 193 ) ( 0 0.015625 -21.875 ) ) "textures/common/caulk"
+  ( 0 1 0 -896 ) ( ( 0.015625 0 174 ) ( 0 0.015625 -21.875 ) ) "textures/common/caulk"
+  ( 1 0 0 320 ) ( ( 0.015625 0 173 ) ( 0 0.015625 -21.875 ) ) "textures/common/caulk"
+  ( 0 -1 0 384 ) ( ( 0.015625 0 192 ) ( 0 0.015625 -21.875 ) ) "textures/common/caulk"
+  ( 0 0 1 -136 ) ( ( 0.015625 0 173 ) ( 0 0.015625 -13 ) ) "textures/common/caulk"
+ }
+}
+// primitive 15
+{
+ brushDef3
+ {
+  ( 0 0 1 0 ) ( ( 0.0078125 0 -5 ) ( 0 0.0078125 4.5 ) ) "textures/common_misc/concrete05"
+  ( -1 0 0 -832 ) ( ( 0.015625 0 193 ) ( 0 0.015625 -22.125 ) ) "textures/common/caulk"
+  ( 0 1 0 -896 ) ( ( 0.015625 0 174 ) ( 0 0.015625 -22.125 ) ) "textures/common/caulk"
+  ( 1 0 0 320 ) ( ( 0.015625 0 173 ) ( 0 0.015625 -22.125 ) ) "textures/common/caulk"
+  ( 0 -1 0 384 ) ( ( 0.015625 0 192 ) ( 0 0.015625 -22.125 ) ) "textures/common/caulk"
+  ( 0 0 -1 -8 ) ( ( 0.015625 0 173 ) ( 0 0.015625 -31 ) ) "textures/common/caulk"
+ }
+}
+// primitive 16
+{
+ brushDef3
+ {
+  ( 0 0 1 0 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_misc/concrete05"
+  ( -1 0 0 -256 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -22.125 ) ) "textures/common/caulk"
+  ( 0 1 0 -256 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -22.125 ) ) "textures/common/caulk"
+  ( 1 0 0 -256 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -22.125 ) ) "textures/common/caulk"
+  ( 0 -1 0 -256 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -22.125 ) ) "textures/common/caulk"
+  ( 0 0 -1 -8 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+ }
+}
+// primitive 17
+{
+ brushDef3
+ {
+  ( 0 0 -1 128 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_floors/floor5_1"
+  ( -1 0 0 -256 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -21.875 ) ) "textures/common/caulk"
+  ( 0 1 0 -256 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -21.875 ) ) "textures/common/caulk"
+  ( 1 0 0 -256 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -21.875 ) ) "textures/common/caulk"
+  ( 0 -1 0 -256 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -21.875 ) ) "textures/common/caulk"
+  ( 0 0 1 -136 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+ }
+}
+// primitive 18
+{
+ brushDef3
+ {
+  ( 0 0 -1 0 ) ( ( 0.0078125 0 0.01171875 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 0 1 -128 ) ( ( 0.0078125 0 0.01171875 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 -1 0 -248 ) ( ( 0.0078125 0 0.01171875 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 1 0 0 -256 ) ( ( 0.0078125 0 0.01171875 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 1 0 -248 ) ( ( 0.0078125 0 0.01171875 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( -1 0 0 248 ) ( ( 0.0078125 0 0.01171875 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+ }
+}
+// primitive 19
+{
+ brushDef3
+ {
+  ( 0 0 -1 0 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 0 1 -128 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 -1 0 120 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 1 0 -256 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( -1 0 0 -256 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 1 0 0 248 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+ }
+}
+// primitive 20
+{
+ brushDef3
+ {
+  ( 0 0 -1 0 ) ( ( 0.015625 0 183.0234375 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( 0 0 1 -128 ) ( ( 0.015625 0 183.0234375 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( 1 0 0 -248 ) ( ( 0.015625 0 183.0234375 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( 0 1 0 -256 ) ( ( 0.015625 0 183.0234375 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( -1 0 0 -248 ) ( ( 0.015625 0 183.0234375 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( 0 -1 0 248 ) ( ( 0.0078125 0 0.01171875 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+ }
+}
+// primitive 21
+{
+ brushDef3
+ {
+  ( 0 1 0 248 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( -1 0 0 -248 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( 1 0 0 -248 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( 0 -1 0 -256 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( 0 0 1 -128 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( 0 0 -1 0 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+ }
+}
+// primitive 22
+{
+ brushDef3
+ {
+  ( 0 0 -1 0 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( 0 0 1 -128 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( 0 -1 0 -256 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( 1 0 0 -248 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( -1 0 0 -248 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( 0 1 0 248 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+ }
+}
+// primitive 23
+{
+ brushDef3
+ {
+  ( 0 -1 0 248 ) ( ( 0.0078125 0 0.01171875 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( -1 0 0 -248 ) ( ( 0.015625 0 183.0234375 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( 0 1 0 -256 ) ( ( 0.015625 0 183.0234375 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( 1 0 0 -248 ) ( ( 0.015625 0 183.0234375 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( 0 0 1 -128 ) ( ( 0.015625 0 183.0234375 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( 0 0 -1 0 ) ( ( 0.015625 0 183.0234375 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+ }
+}
+// primitive 24
+{
+ brushDef3
+ {
+  ( 1 0 0 248 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( -1 0 0 -256 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 1 0 -248 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 -1 0 120 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 0 1 -128 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 0 -1 0 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+ }
+}
+// primitive 25
+{
+ brushDef3
+ {
+  ( -1 0 0 248 ) ( ( 0.0078125 0 0.01171875 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 1 0 -248 ) ( ( 0.0078125 0 0.01171875 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 1 0 0 -256 ) ( ( 0.0078125 0 0.01171875 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 -1 0 -248 ) ( ( 0.0078125 0 0.01171875 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 0 1 -128 ) ( ( 0.0078125 0 0.01171875 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+  ( 0 0 -1 0 ) ( ( 0.0078125 0 0.01171875 ) ( 0 0.0078125 0 ) ) "textures/common_walls/ba_panel1_1"
+ }
+}
+// primitive 26
+{
+ brushDef3
+ {
+  ( 0 0 1 -136 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( 0 -1 0 -256 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -21.875 ) ) "textures/common/caulk"
+  ( 1 0 0 -256 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -21.875 ) ) "textures/common/caulk"
+  ( 0 1 0 -256 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -21.875 ) ) "textures/common/caulk"
+  ( -1 0 0 -256 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -21.875 ) ) "textures/common/caulk"
+  ( 0 0 -1 128 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_floors/floor5_1"
+ }
+}
+// primitive 27
+{
+ brushDef3
+ {
+  ( 0 0 -1 -8 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -22 ) ) "textures/common/caulk"
+  ( 0 -1 0 -256 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -22.125 ) ) "textures/common/caulk"
+  ( 1 0 0 -256 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -22.125 ) ) "textures/common/caulk"
+  ( 0 1 0 -256 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -22.125 ) ) "textures/common/caulk"
+  ( -1 0 0 -256 ) ( ( 0.015625 0 183 ) ( 0 0.015625 -22.125 ) ) "textures/common/caulk"
+  ( 0 0 1 0 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common_misc/concrete05"
+ }
+}
+}
+// entity 1
+{
+"classname" "info_player_start"
+"name" "info_player_start_1"
+"origin" "232 -232 0"
+"frame" "0"
+"angle" "135"
+}
+// entity 2
+{
+"classname" "light"
+"name" "light_1"
+"origin" "-136 136 120"
+"_color" "1 0 0"
+}
+// entity 3
+{
+"classname" "light"
+"name" "light_2"
+"origin" "-696 520 120"
+"_color" "0 0 1"
+}
+// entity 4
+{
+"classname" "light"
+"name" "light_3"
+"origin" "-392 64 120"
+"_color" "1 1 1"
+}
+// entity 5
+{
+"classname" "light"
+"name" "light_4"
+"origin" "120 -120 120"
+"_color" "1 0 0"
+}
+// entity 6
+{
+"classname" "light"
+"name" "light_5"
+"origin" "-136 -120 120"
+"_color" "1 0 0"
+}
+// entity 7
+{
+"classname" "light"
+"name" "light_6"
+"origin" "120 136 120"
+"_color" "1 0 0"
+}
+// entity 8
+{
+"classname" "light"
+"name" "light_7"
+"origin" "-576 200 120"
+"_color" "1 1 1"
+}
+// entity 9
+{
+"classname" "light"
+"name" "light_8"
+"origin" "-456 520 120"
+"_color" "0 0 1"
+}
+// entity 10
+{
+"classname" "light"
+"name" "light_9"
+"origin" "-704 760 120"
+"_color" "0 0 1"
+}
+// entity 11
+{
+"classname" "light"
+"name" "light_10"
+"origin" "-456 760 120"
+"_color" "0 0 1"
+}
