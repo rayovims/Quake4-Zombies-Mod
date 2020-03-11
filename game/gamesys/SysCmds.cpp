@@ -1113,7 +1113,7 @@ Cmd_Spawn_f
 void Cmd_Spawn_f( const idCmdArgs &args ) {
 #ifndef _MPBETA
 
-	if (strcmp(args.Argv(1), "wave") == 0) {
+	if (strcmp(args.Argv(1), "wave_1") == 0) {
 		int distance = 380;
 
 		for (int j = 1; j < 10; j++) {
@@ -1140,7 +1140,7 @@ void Cmd_Spawn_f( const idCmdArgs &args ) {
 			dict.Set("classname", value);
 			dict.Set("angle", va("%f", yaw + 180));
 
-			org = player->GetPhysics()->GetOrigin() + idAngles(0, yaw, 0).ToForward() * (distance + (j * 2)) + idVec3(0, 0, 1);
+			org = player->GetPhysics()->GetOrigin() + idAngles(0, yaw, 0).ToForward() * (distance + (j * 3)) + idVec3(0, 0, 1);
 			dict.Set("origin", org.ToString());
 
 			for (i = 2; i < args.Argc() - 1; i += 2) {
