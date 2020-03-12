@@ -1110,108 +1110,73 @@ void Cmd_Trigger_f( const idCmdArgs &args ) {
 Cmd_Spawn_f
 ===================
 */
+
+void spawnWaves(const char *name) {
+	const char *value = name;
+	int i = 0;
+	int waveCount = 0;
+	while (value[i] != '\0') {
+		if (value[i] == '_') {
+			waveCount = (value[i + 1])-'0';
+			break;
+		}
+		i++;
+	}
+
+	int distance = 350;
+
+	for (int j = 1; j < ((waveCount * 3) + 1); j++) {
+		const char *key, *value;
+		int			i;
+		float		yaw;
+		idVec3		org;
+		idPlayer	*player;
+		idDict		dict;
+
+		player = gameLocal.GetLocalPlayer();
+		if (!player || !gameLocal.CheatsOk(false)) {
+			return;
+		}
+
+		//if (args.Argc() & 1) {	// must always have an even number of arguments
+		//	gameLocal.Printf("usage: spawn classname [key/value pairs]\n");
+		//	return;
+		//}
+
+		yaw = player->viewAngles.yaw;
+
+		value = "monster_strogg_marine";
+		dict.Set("classname", value);
+		dict.Set("angle", va("%f", yaw + 180));
+
+		org = player->GetPhysics()->GetOrigin() + idAngles(0, yaw, 0).ToForward() * (distance + (j * 4)) + idVec3(0, 0, 1);
+		dict.Set("origin", org.ToString());
+
+		/*for (i = 2; i < args.Argc() - 1; i += 2) {
+
+			key = args.Argv(i);
+			value = args.Argv(i + 1);
+
+			dict.Set(key, value);
+		}*/
+
+		// RAVEN BEGIN
+		// kfuller: want to know the name of the entity I spawned
+		idEntity *newEnt = NULL;
+		gameLocal.SpawnEntityDef(dict, &newEnt);
+
+		if (newEnt)	{
+			gameLocal.Printf("spawned entity '%s'\n", newEnt->name.c_str());
+			spawnWaves("Hello world");
+		}
+	}
+
+	
+}
+
 void Cmd_Spawn_f( const idCmdArgs &args ) {
 #ifndef _MPBETA
-
-	if (strcmp(args.Argv(1), "wave_1") == 0) {
-		int distance = 380;
-
-		for (int j = 1; j < 10; j++) {
-			const char *key, *value;
-			int			i;
-			float		yaw;
-			idVec3		org;
-			idPlayer	*player;
-			idDict		dict;
-
-			player = gameLocal.GetLocalPlayer();
-			if (!player || !gameLocal.CheatsOk(false)) {
-				return;
-			}
-
-			if (args.Argc() & 1) {	// must always have an even number of arguments
-				gameLocal.Printf("usage: spawn classname [key/value pairs]\n");
-				return;
-			}
-
-			yaw = player->viewAngles.yaw;
-
-			value = "monster_strogg_marine";
-			dict.Set("classname", value);
-			dict.Set("angle", va("%f", yaw + 180));
-
-			org = player->GetPhysics()->GetOrigin() + idAngles(0, yaw, 0).ToForward() * (distance + (j * 3)) + idVec3(0, 0, 1);
-			dict.Set("origin", org.ToString());
-
-			for (i = 2; i < args.Argc() - 1; i += 2) {
-
-				key = args.Argv(i);
-				value = args.Argv(i + 1);
-
-				dict.Set(key, value);
-			}
-
-			// RAVEN BEGIN
-			// kfuller: want to know the name of the entity I spawned
-			idEntity *newEnt = NULL;
-			gameLocal.SpawnEntityDef(dict, &newEnt);
-
-			if (newEnt)	{
-				gameLocal.Printf("spawned entity '%s'\n", newEnt->name.c_str());
-			}
-		}
-	}
-	else {
-
-		int distance = 380;
-
-		for (int j = 1; j < 10; j++) {
-			const char *key, *value;
-			int			i;
-			float		yaw;
-			idVec3		org;
-			idPlayer	*player;
-			idDict		dict;
-
-			player = gameLocal.GetLocalPlayer();
-			if (!player || !gameLocal.CheatsOk(false)) {
-				return;
-			}
-
-			if (args.Argc() & 1) {	// must always have an even number of arguments
-				gameLocal.Printf("usage: spawn classname [key/value pairs]\n");
-				return;
-			}
-
-			yaw = player->viewAngles.yaw;
-
-			value = args.Argv(1);
-			dict.Set("classname", value);
-			dict.Set("angle", va("%f", yaw + 180));
-
-			org = player->GetPhysics()->GetOrigin() + idAngles(0, yaw, 0).ToForward() * (distance + (j * 2)) + idVec3(0, 0, 1);
-			dict.Set("origin", org.ToString());
-
-			for (i = 2; i < args.Argc() - 1; i += 2) {
-
-				key = args.Argv(i);
-				value = args.Argv(i + 1);
-
-				dict.Set(key, value);
-			}
-
-
-
-			// RAVEN BEGIN
-			// kfuller: want to know the name of the entity I spawned
-			idEntity *newEnt = NULL;
-			gameLocal.SpawnEntityDef(dict, &newEnt);
-
-			if (newEnt)	{
-				gameLocal.Printf("spawned entity '%s'\n", newEnt->name.c_str());
-			}
-		}
-	}
+	spawnWaves(args.Argv(1));
 // RAVEN END
 #endif // !_MPBETA
 }
