@@ -9,6 +9,10 @@
 * Paste the folder which you copied from the repo you cloned in this location.
 * Once you run quake 4 got to 'mods' and load 'zombies-mod' and **DONE**
 
+## Changing Map
+* I have created a map designed for zombies. In order to load it go to the command line and type:
+** devmap game/zombies.map
+
 ## ACTUAL MOD
 * Spawning zombies in waves:
  ** in the command line that you can open if you press '`' type 'spawn wave_x' where x is the number of waves. You can go up to wave 9.
