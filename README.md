@@ -8,3 +8,7 @@
 ** C:\Program Files (x86)\Steam\steamapps\common\Quake 4
 * Paste the folder which you copied from the repo you cloned in this location.
 * Once you run quake 4 got to 'mods' and load 'zombies-mod' and **DONE**
+
+## ACTUAL MOD
+* Spawning zombies in waves:
+ ** in the command line that you can open if you press '`' type 'spawn wave_x' where x is the number of waves. You can go up to wave 9.
