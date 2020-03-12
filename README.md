@@ -9,7 +9,7 @@
 * Paste the folder which you copied from the repo you cloned in this location.
 * Once you run quake 4 got to 'mods' and load 'zombies-mod' and **DONE**
 
-## Changing Map
+## Changing Map (Optional)
 * I have created a map designed for zombies. In order to load it go to the command line and type:
   * devmap game/zombies.map
 
